@@ -1,0 +1,85 @@
+/*White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+main {
+    width:85%;
+    display: flex;
+    flex-direction: column;
+    background: hsl(0, 0%, 100%);
+    border-radius: 4%;
+    margin: 8.0rem 3.5rem;
+    padding: 1.5rem;
+}
+
+img {
+    border-radius: 4%;
+}
+
+h1 {
+    font-size: 2.2rem;
+    padding: 2.5rem 1.5rem 2.0rem 1.5rem;
+    font-weight: 700;
+}
+
+p {
+    padding: 0rem 1.5rem 3.0rem 1.5rem;
+    font-weight: 400;
+    color:hsl(220, 15%, 55%);
+}
+
+@media (min-width:400px) {
+   
+    main {
+        width: 65%;
+    }
+}
+
+@media (min-width:768px) {
+    main {
+        width: 30%;
+    }
+}
+
+@media (min-width:1200px) {
+    main {
+        width: 20%;
+    }
+}
